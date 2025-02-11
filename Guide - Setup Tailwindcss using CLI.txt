@@ -1,0 +1,6 @@
+Setup Tailwindcss using CLI
+
+Step 1: Create a project folder
+Step 2: open and cd on that project folder
+Step 3: type npm init
+Step 4: Do this: https://tailwindcss.com/docs/installation/tailwind-cli

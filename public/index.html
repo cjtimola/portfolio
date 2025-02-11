@@ -1,0 +1,235 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>cjtimola</title>
+
+  <link rel="icon" type="image/x-icon" href="../src/images/favicon.png">
+  <link href="../src/styles/style.css" rel="stylesheet">
+</head>
+<body class="relative">
+
+  <!--=======  START HEADER  =========-->
+  <header class="header lg:w-4xl lg:px-0 px-5 mx-auto fixed top-0 left-0 right-0 z-50">
+    <div class="h-[108px] w-full flex justify-between items-end pb-3">
+      <div class="text-3xl font-bold">cjtimola</div>
+      <nav>
+        <ul class="flex items-center gap-x-10">
+          <li><a href="#about" class="text-[19px] hover:opacity-90 active:opacity-80 transition-opacity hidden sm:block">About</a></li>
+          <li><a href="#what-i-do" class="text-[19px] hover:opacity-90 active:opacity-80 transition-opacity hidden sm:block">What I Do</a></li>
+          <li><a href="#my-work" class="text-[19px] hover:opacity-90 active:opacity-80 transition-opacity hidden sm:block">My Work</a></li>
+          <li><img src="../src/images/menu.png" alt="" class="js-burger-icon w-10 sm:hidden"></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--=======  END HEADER  =========-->
+
+  <!--=======  START RIGHT NAV  =========-->
+  <div class="right-nav-container js-right-nav-container hidden fixed right-0 top-24 w-64 bottom-0 z-50">
+    <ul class="flex flex-col items-center pt-30 gap-y-24">
+      <li><a href="#about" class="right-nav-links">About</a></li>
+      <li><a href="#what-i-do" class="right-nav-links">What I Do</a></li>
+      <li><a href="#my-work" class="right-nav-links">My Work</a></li>
+    </ul>
+  </div>
+  <!--=======  END RIGHT NAV  =========-->
+
+  <main class="lg:w-4xl lg:px-0 px-10 mx-auto my-60">
+
+    <!--=======  START ABOUT  =========-->
+    <section id="about" class="about-section min-h-[972px] scroll-mt-60 grid grid-cols-1 sm:grid-cols-[1fr_300px]">
+      <div class="sm:pl-5">
+        <div class="text-base mb-3">Hi, my name is Christian.</div>
+        <div class="text-4xl/12 sm:text-5xl/16 font-bold mb-3">I'm working on my journey to become a Web Developer.</div>
+        <div class="text-base mb-3">I'm a fresh grad Computer Science student.</div>
+        <div class="text-base mb-3">I graduated as Magna Cum Laude at</div>
+        <div class="text-base">Informatics College Northgate.</div>
+      </div>
+
+      <div class="hidden sm:block pr-5">
+        <img src="../src/images/my-profile.JPG" alt="a picture of me" class="w-56 mx-auto rounded-2xl">
+      </div>
+    </section>
+    <!--=======  END ABOUT  =========-->
+
+    <!--=======  START WHAT I DO  =========-->
+    <section id="what-i-do" class="min-h-[972px] scroll-mt-60 sm:px-3">
+      <div class="text-center mb-10">
+        <p class="pb-2 text-[14px]">Passion led us here</p>
+        <p class="text-3xl sm:text-4xl font-[900]">What I Do</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-6">
+         <div class="border-2 px-5 py-10 rounded-2xl shadow-[3px_3px_1px_black] bg-white">
+            <div>
+               <img src="../src/images/web-dev-icon.png" alt="Web development icon" class="w-18 mb-5">
+             </div>
+             <div class="mb-3">
+               <p class="text-2xl font-bold">Web Development</p>
+             </div>
+             <div class="mb-7">
+               <p class="leading-[1.6]">
+                 I am a dedicated web developer with expertise in both frontend and backend development. My passion for coding started in high school with Java, and the pandemic in grade 12 led me to discover web development, deepening my enthusiasm for the field.
+               </p>
+             </div>
+             <div>
+               <a href="https://github.com/cjtimola/projects/" target="_blank" class="font-semibold hover:opacity-90 active:opacity-80 transition-opacity">
+                 See My Work <span>&#x2192;</span>
+               </a>
+             </div>
+          </div>
+
+          <div class="border-2 px-5 py-10 rounded-2xl shadow-[3px_3px_1px_black] bg-white">
+            <div>
+               <img src="../src/images/data-analytics.png" alt="Data analytics icon" class="w-18 mb-5">
+             </div>
+             <div class="mb-3">
+               <p class="text-2xl font-bold">Data Analytics</p>
+             </div>
+             <div class="mb-7">
+               <p class="leading-[1.6]">
+                  I once explored data analytics, finding it enjoyable. Receiving a DEP x DataCamp scholarship allowed me to delve deeper into this realm, gaining valuable knowledge. While now concentrating on web development, I maintain proficiency in data analytics.
+               </p>
+             </div>
+             <div>
+               <a href="https://www.datacamp.com/portfolio/ybo/" target="_blank" class="font-semibold hover:opacity-90 active:opacity-80 transition-opacity">
+                  See My DataCamp Portfolio <span>&#x2192;</span>
+               </a>
+             </div>
+          </div>
+      </div>
+    </section>
+    <!--=======  END WHAT I DO  =========-->
+    
+    <!--=======  START MY WORK  =========-->
+    <section id="my-work" class="min-h-[972px] scroll-mt-60 mt-40 sm:mt-0">
+      <div class="text-center mb-10">
+        <p class="pb-2 text-[14px]">Passion produces</p>
+        <p class="text-3xl sm:text-4xl font-[900]">My Work</p>
+      </div>
+
+      <div class="flex flex-wrap">
+         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10">
+               <img
+                  src="../src/images/thumbnails/youtube-clone.png"
+                  alt="image"
+                  class="w-full"
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                     <a 
+                        href="https://cjtimola.github.io/projects/youtube-clone/"
+                        class="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary hover:opacity-80 active:opacity-60 transition-opacity"
+                        target="_blank"
+                     >
+                        Youtube Clone
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-7">
+                     I spent time building this project, practicing my HTML and CSS skills to get better at them for future projects.
+                  </p>
+
+                  <p class="text-[14px]">Public Project</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10">
+               <img
+                  src="../src/images/thumbnails/amazon.png"
+                  alt="image"
+                  class="w-full"
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                     <a 
+                        href="https://github.com/cjtimola/projects/tree/main/amazon"
+                        class="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary hover:opacity-80 active:opacity-60 transition-opacity"
+                        target="_blank"
+                     >
+                        Amazon Clone
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-7">
+                     I created this to practice JavaScript by making components interactive, enhancing my coding skills for future projects.
+                  </p>
+                  
+                  <p class="text-[14px]">Public Project</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10">
+               <img
+                  src="../src/images/thumbnails/grading-system.png"
+                  alt="image"
+                  class="w-full"
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                     <a 
+                        href="#"
+                        class="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary hover:opacity-80 active:opacity-60 transition-opacity pointer-events-none"
+                        target="_blank"
+                     >
+                        Grading Sytem
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-7">
+                     I built this for our thesis project using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL. It won the award for the best thesis.
+                  </p>
+                  
+                  <p class="text-[14px]">Private Project</p>
+               </div>
+            </div>
+         </div>
+
+         <div class="w-full md:w-1/2 xl:w-1/3 px-4">
+            <div class="bg-white rounded-lg overflow-hidden mb-10">
+               <img
+                  src="../src/images/thumbnails/enrollment-system.png"
+                  alt="image"
+                  class="w-full"
+                  />
+               <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                     <a 
+                        href="#"
+                        class="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary hover:opacity-80 active:opacity-60 transition-opacity pointer-events-none"
+                        target="_blank"
+                     >
+                        Enrollment Sytem
+                     </a>
+                  </h3>
+                  <p class="text-base text-body-color leading-relaxed mb-7">
+                     I helped in the backend side of this project using JavaScript, PHP, and MySQL.
+                  </p>
+                  
+                  <p class="text-[14px]">Private Project</p>
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>
+    <!--=======  END MY WORK  =========-->
+    
+  </main>
+
+  <footer class="h-[10vh] lg:w-4xl mx-auto flex items-center justify-end gap-x-2.5 lg:px-0 px-5">
+   <a href="https://github.com/cjtimola/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="32px hover:opacity-80 active:opacity-60 transition-opacity" />
+   </a>
+   <a href="https://www.linkedin.com/in/cjtimola/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="32px hover:opacity-80 active:opacity-60 transition-opacity" />
+   </a>
+  </footer>
+
+  <script src="../src/scripts/index.js"></script>
+</body>
+</html>
